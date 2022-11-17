@@ -1,0 +1,10 @@
+
+*{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+/*este selector aplica las propiedades a todo elementos html*/
+
+body{    
+   background-color: lightpink; 
+   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */  
+}
