@@ -1,6 +1,6 @@
 .container{
     background-color: lightblue;
-    position: relative;
+    height: 300px;
 }
 .cubo{
     width: 150px;
@@ -11,7 +11,7 @@
     font-size: larger;
     font-weight: bolder;
 }
-
+/* Relative */
 .uno{
     background-color: #f90;
     position: relative;
@@ -19,7 +19,7 @@
     left: 190px;
 }
 /* top- left- right - bottom */
-
+/* Absolute */
 .dos{
     background-color: violet;
     position: absolute;
@@ -56,7 +56,7 @@ Si no hay ninguno, toma al <body>*/
 /* se comporta relative hasta que se hace scroll y se vuelve fixed*/
 
 .cuatro{
-    position: sticky;
-    top: 0px;
+    position:fixed;
+    top:0px;
     z-index: 2;
 }

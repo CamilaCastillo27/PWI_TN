@@ -3,11 +3,11 @@
 
 /* selector por etiqueta*/
 /* a todos los elementos <p> les asigna las propiedades definidas */
-body{                                                         
-    background-image:url(../clase.2/puflito2.jpg) ;
-    background-attachment: fixed;
-}
 
+body{
+  background-image: url(../clase.2/img.html/puflito3.jpg);
+  background-attachment: fixed;
+}
 
 p{
   color: green;
@@ -27,13 +27,13 @@ h1{
 
 a{
   background-color: tomato;
-  color:white
+  color:white;
   width: 100px;
   /*padding-bottom:10px;*/
   padding:10px;
   border: black 2px solid ;/*3 valores : el color el grosor y el tipo de borde*/
   border: radius 20px;/* redondear los bordes*/
-  display: block;
+  display : block;
 }
 /* selectores de clase */
 /* .nombreDeLaClase */
