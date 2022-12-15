@@ -1,0 +1,24 @@
+.img{
+    width: 20%;
+}
+
+.efecto1:hover{
+    filter: blur(3px);
+}
+
+.efecto2:hover{
+    filter: invert(100%);
+}
+.efecto3:hover{
+    filter: saturate(3);
+}
+.efecto4:hover{
+    filter: contrast(200%);
+
+}
+.efecto5:hover{
+    filter:grayscale(80%) ;
+}
+.efecto6:hover{
+    filter:hue-rotate(90deg);
+}

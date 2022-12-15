@@ -1,0 +1,39 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+   
+}
+
+
+form{
+    display: flex;
+    flex-direction: column; 
+    width: 20%;
+    
+    
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+input[type=text],input[type=Email],input[type=password]{
+    padding:10px;
+    border: 0px;
+   /* border-bottom: 10px;
+    border-radius: 10px;*/
+    box-shadow: 0 0 15px 4px rgba(0, 0,0, 0.6);
+}
+textarea{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 4px 4px 10px  rgba(0, 0,0, 0.6);
+    resize: none;
+}
