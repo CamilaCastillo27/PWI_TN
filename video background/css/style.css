@@ -1,0 +1,27 @@
+.body{
+    background-color: #333;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.video-background{
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     z-index: -15;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    letter-spacing: 3px;
+    bottom: 5px;
+    left: 5px;
+    font-size: 36px;
+    text-align: center;
+}
+span{
+    color: white;
+    font-size: 16px;
+}
