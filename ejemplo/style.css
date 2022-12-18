@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+a{
+text-decoration:none ;
+color: black;
+
+}
+nav> a{
+    margin-left:15px ;
+}
+
+.hamburguesa{
+    color: black;
+    display:none;
+    cursor: pointer;
+    font-size: 32px;
+
+ }
+@media(max-width:500px){
+  /*nav,div {
+   display: none ;
+  }
+  .hamburguesa{
+    display: block;
+    color:black} */
+    header{
+        flex-direction:column;
+    }
+  
+ }
+ .contenedorhero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    background: url(img.jpg);
+    }
+    .titulohero{
+      font-size: 4rem;
+      text-transform: uppercases;
+      color: white;
+      padding: 1.5 rem 0;
+      text-align: center;
+    } 
+
+    .textohero{
+        font-size: 1 rem;
+        color: white;
+        /*background-color: red;*/
+        text-align: center;
+        padding-bottom: 2rem;
+
+     }
+     button{
+       padding: 0.9rem 1.6rem; 
+       border: 1px solid white;
+       color: black ;
+       font-size: 1.25rem;
+       text-transform: uppercase;
+       cursor: pointer;
+     }
+     button:hover{
+        background-color: transparent;
+        color:white;
+        border-color:red;
+     }
