@@ -166,3 +166,11 @@ img{
   color:#064E52;
   font-weight: 100;
 }
+
+.FeatureTours{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
